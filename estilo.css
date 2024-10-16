@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    background: rgb(26, 25, 25);
+}
+header{
+    display: flex;
+    align-items: baseline;
+    border: 1px solid black;
+    background: seagreen;
+    height: 90px;
+    flex-flow: row wrap;
+    
+    
+}
+.logo{
+  flex: 20%;
+   color: white;
+   justify-content: center;
+   font-family: "Anton", sans-serif;
+   margin-left: 5%;
+   text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+   
+}
+.menu{
+    display: flex;
+    flex: 75%;
+    
+    justify-content: left;
+    padding: 15px 20px;
+}
+.menu a{
+    text-decoration: none;
+    padding: 0 20px;
+  color: white;
+   font-weight: 700;
+   font-size: larger;
+  
+}
+.connect{ 
+    position: relative;
+    left:150px;
+    padding: 10px 20px;
+    color: black;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+ bottom: 10px;
+}
+
+.connect:hover,
+:focus {
+  color: #ffffff;
+  background: #008cff;
+  border: 1px solid #008cff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+    0 0 100px #008cff;
+}
