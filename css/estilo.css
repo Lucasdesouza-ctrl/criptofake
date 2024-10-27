@@ -13,7 +13,6 @@ body {
 header {
     display: flex;
     align-items: baseline;
-    border: 1px solid black;
     background: grey;
     height: 90px;
     flex-flow: row wrap;
@@ -48,10 +47,12 @@ header {
     display: flex;
     position: relative;
     color: black;
-    border-radius: 20px;
+    border-radius: 50px;
     background: gold;
     padding: 20px;
-
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+font-weight: 800;
+border: transparent;
 
 }
 
@@ -61,3 +62,32 @@ header {
     flex: 20%;
     justify-content: center;
 }
+.menu a:hover{
+    background: gold;
+    border-radius: 50px;
+    color: black;
+    border: solid black 1px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.connect:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: black;
+    border: gold solid 3px;
+    color: gold;
+    font-weight: 800;
+}
+.meio{
+    display: flex;
+border: solid 1px white;
+height: 500px;
+justify-content: center;
+align-content: center;
+flex-direction: row;
+}
+.meio div {
+    border: solid 1px white;
+    flex: 45%;
+
+}
+
